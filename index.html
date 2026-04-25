@@ -58,7 +58,7 @@ nav.scrolled .hamburger span{background:var(--dark)}
 .hero::before{content:'';position:absolute;top:-40%;right:-15%;width:600px;height:600px;background:radial-gradient(circle,rgba(240,192,64,.18),transparent 70%);border-radius:50%}
 .hero::after{content:'';position:absolute;bottom:-20%;left:-10%;width:500px;height:500px;background:radial-gradient(circle,rgba(230,168,23,.12),transparent 70%);border-radius:50%}
 .hero-content{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
-.hero-text{max-width:560px;padding-top:80px}
+.hero-text{max-width:560px;padding-top:120px}
 .hero-badge{display:inline-block;background:rgba(240,192,64,.2);color:var(--accent-light);padding:8px 20px;border-radius:50px;font-size:.85rem;font-weight:600;margin-bottom:24px;border:1px solid rgba(240,192,64,.35)}
 .hero h1{font-size:3.5rem;color:#fff;line-height:1.15;margin-bottom:20px}
 .hero h1 span{color:var(--accent-light)}
@@ -70,6 +70,13 @@ nav.scrolled .hamburger span{background:var(--dark)}
 .hero-img{position:relative}
 .hero-img img{border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.3);width:100%}
 .hero-img::before{content:'';position:absolute;top:-15px;right:-15px;width:100%;height:100%;border:3px solid var(--accent-light);border-radius:20px;z-index:-1}
+/* ANNOUNCEMENT BANNER */
+.announcement{background:linear-gradient(135deg,var(--accent-dark),var(--accent));padding:14px 0;text-align:center;position:relative}
+.announcement-inner{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
+.announcement-badge{background:rgba(0,0,0,.15);color:#fff;padding:4px 12px;border-radius:20px;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+.announcement p{color:var(--dark);font-weight:600;font-size:.92rem}
+.announcement a{color:var(--dark);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+
 /* ABOUT */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
 .about-tag{color:var(--primary);font-weight:600;font-size:.85rem;text-transform:uppercase;letter-spacing:2px;margin-bottom:12px}
@@ -260,6 +267,17 @@ footer a:hover{color:var(--accent-light)}
   </div>
 </section>
 
+<!-- ANNOUNCEMENT BANNER -->
+<div class="announcement">
+  <div class="container">
+    <div class="announcement-inner">
+      <span class="announcement-badge">📢 New</span>
+      <p>SAARTHI Scholarship 2026 — Applications now open for Class 8 students in Ayodhya district</p>
+      <a href="#scholarship">Learn More & Apply →</a>
+    </div>
+  </div>
+</div>
+
 <!-- ABOUT -->
 <section class="section" id="about">
   <div class="container">
@@ -331,11 +349,11 @@ footer a:hover{color:var(--accent-light)}
   </div>
 </section>
 
-<!-- SCHOLARSHIP -->
+<!-- SCHOLARSHIP DETAILS -->
 <section class="section" id="scholarship">
   <div class="container">
-    <div class="section-title">SAARTHI Scholarship 2026</div>
-    <p class="section-sub">Supporting meritorious Class 8 students from government schools in Ayodhya district.</p>
+    <div class="section-title">SAARTHI Scholarship</div>
+    <p class="section-sub">Eligibility, selection process, and documents for the 2025-26 scholarship cycle.</p>
 
     <div class="scholarship-box">
       <h2>सारथी छात्रवृत्ति 2025-26</h2>
